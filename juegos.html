@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
-    <title>Proyecto</title>
+    <title>Product example · Bootstrap v5.0</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/product/">
 
@@ -14,6 +14,15 @@
 
     <!-- Bootstrap core CSS -->
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .imagen-circular {
+        width: 300px;         /* Puedes cambiar el tamaño */
+        height: 230px;
+        border-radius: 50%;   /* Esto hace que sea circular */
+        object-fit: cover;    /* Para que no se deforme la imagen */
+        border: 3px solid #333; /* Opcional: borde decorativo */
+      }
+    </style>
 
     <style>
       .bd-placeholder-img {
@@ -56,47 +65,47 @@
 <main>
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
     <div class="col-md-5 p-lg-5 mx-auto my-5">
-      <h1 class="display-4 fw-normal">Hobbies</h1>
-      <p class="lead fw-normal">Hola, Les presento mis Hobbies que disfruto hacer en mi tiempo libre.</p>
-    </div>
-    <div class="product-device shadow-sm d-none d-md-block"></div>
-    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-  </div>
-
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 p-3">
-        <h2 class="display-5">Musica</h2>
-        <p class="lead">Viviendo entre notas, melodías y emociones que no necesitan palabras.</p>
-      </div>
-      <img height="300px" width="400px" src="./imagenes/musica.jpg" alt="musica">
-
-    </div>
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5">Juegos</h2>
-        <p class="lead">Explorando mundos pixelados donde cada partida es una nueva aventura.</p>
-      </div>
-      <img height="300px" width="400px" src="./imagenes/juego.jpg" alt="juegos">
+      <h1 class="display-4 fw-normal">Juegos</h1>
+      <p class="lead fw-normal">Me gusta pasar mi tiempo libre jugando distintos tipos de juegos (indies o AAA) Aqui un ejemplo de mis favoritos.</p>
     </div>
   </div>
 
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 p-3">
-        <h2 class="display-5">voleibol</h2>
-        <p class="lead">Pasión, trabajo en equipo y adrenalina en cada saque, pase y remate.</p>
-      </div>
-      <img height="300px" width="400px" src="./imagenes/volleyball.avif" alt="volleyball">
-    </div>
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5">Lectura</h2>
-        <p class="lead">Tejiendo emociones y pensamientos en versos que hablan desde el alma.</p>
-      </div>
-      <img height="300px" width="400px" src="./imagenes/poesia.jpg" alt="poesia">
-    </div>
-  </div>
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="./imagenes/juego.jpg" alt="imagen circular" class="imagen-circular">
+
+        <h2>League of leyends</h2>
+        <p>
+          Juego en línea 5v5 de estrategia y acción. Controlas campeones únicos y el objetivo es destruir la base enemiga. Muy competitivo y popular.
+        </p>
+        
+        <p><a class="btn btn-secondary" href="https://www.leagueoflegends.com/es-es/" target="_blank">Pagina oficial &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./imagenes/rdr2.jpg" alt="imagen circular" class="imagen-circular">
+
+        <h2>Red dead redemption 2</h2>
+        <p>
+          Aventura en el Viejo Oeste. Juegas como Arthur Morgan en un mundo abierto realista con una historia profunda y decisiones morales.
+        </p>
+        <p><a class="btn btn-secondary" href="https://www.rockstargames.com/es/reddeadredemption2" target="_blank">Pagina oficial &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./imagenes/dark.jpg" alt="imagen circular" class="imagen-circular">
+
+        <h2>Dark souls</h2>
+        <p>
+          Juegos de rol y acción conocidos por su dificultad. Combates desafiantes, mundos oscuros y una historia críptica que se descubre poco a poco.
+        </p>
+        <p><a class="btn btn-secondary" href="https://store.steampowered.com/agecheck/app/570940/?l=spanish" target="_blank">Pagina oficial &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+
 </main>
 
 <footer class="container py-5">

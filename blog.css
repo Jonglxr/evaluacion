@@ -95,8 +95,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2.5rem 0;
   color: #727272;
   text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #fcfcfc;
+  background-color: #363636;
+  border-top: .05rem solid #363636;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;

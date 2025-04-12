@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
-    <title>Proyecto</title>
+    <title>Product example · Bootstrap v5.0</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/product/">
 
@@ -14,6 +14,16 @@
 
     <!-- Bootstrap core CSS -->
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .imagen-circular {
+        width: 300px;         /* Puedes cambiar el tamaño */
+        height: 230px;
+        border-radius: 50%;   /* Esto hace que sea circular */
+        object-fit: cover;    /* Para que no se deforme la imagen */
+        border: 3px solid #333; /* Opcional: borde decorativo */
+      }
+    </style>
 
     <style>
       .bd-placeholder-img {
@@ -56,47 +66,47 @@
 <main>
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
     <div class="col-md-5 p-lg-5 mx-auto my-5">
-      <h1 class="display-4 fw-normal">Hobbies</h1>
-      <p class="lead fw-normal">Hola, Les presento mis Hobbies que disfruto hacer en mi tiempo libre.</p>
-    </div>
-    <div class="product-device shadow-sm d-none d-md-block"></div>
-    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-  </div>
-
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 p-3">
-        <h2 class="display-5">Musica</h2>
-        <p class="lead">Viviendo entre notas, melodías y emociones que no necesitan palabras.</p>
-      </div>
-      <img height="300px" width="400px" src="./imagenes/musica.jpg" alt="musica">
-
-    </div>
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5">Juegos</h2>
-        <p class="lead">Explorando mundos pixelados donde cada partida es una nueva aventura.</p>
-      </div>
-      <img height="300px" width="400px" src="./imagenes/juego.jpg" alt="juegos">
+      <h1 class="display-4 fw-normal">Musica</h1>
+      <p class="lead fw-normal">Mi genero favorito de musica es el metalcore, les dejo como ejemplo algunas de mis bandas favoritas y una pequeña descripcion.</p>
     </div>
   </div>
 
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 p-3">
-        <h2 class="display-5">voleibol</h2>
-        <p class="lead">Pasión, trabajo en equipo y adrenalina en cada saque, pase y remate.</p>
-      </div>
-      <img height="300px" width="400px" src="./imagenes/volleyball.avif" alt="volleyball">
-    </div>
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5">Lectura</h2>
-        <p class="lead">Tejiendo emociones y pensamientos en versos que hablan desde el alma.</p>
-      </div>
-      <img height="300px" width="400px" src="./imagenes/poesia.jpg" alt="poesia">
-    </div>
-  </div>
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="./imagenes/sleep.jpg" alt="imagen circular" class="imagen-circular">
+
+        <h2>Sleep token</h2>
+        <p>
+          Banda británica misteriosa que mezcla metal, R&B y música ambiental. Liderados por “Vessel”, crean canciones emocionales sobre amor y espiritualidad. Su estilo combina lo suave y lo pesado en un sonido único.
+        </p>
+        
+        <p><a class="btn btn-secondary" href="https://www.youtube.com/channel/UC-FsT1b7rc-mKVOjikjw5jg" target="_blank">Musica &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./imagenes/dab9_1.gif" alt="imagen circular" class="imagen-circular">
+
+        <h2>Bad Omens</h2>
+        <p>
+        Banda de metalcore estadounidense con influencias electrónicas y una estética oscura. Su música es intensa y melancólica, destacando por las voces versátiles de Noah Sebastian. Se hicieron populares con The Death of Peace of Mind.
+        </p>
+        <p><a class="btn btn-secondary" href="https://www.youtube.com/channel/UCre_5futd_kGkrSlL83n3pw" target="_blank">Musica &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./imagenes/20250124_miwpress_1.webp" alt="imagen circular" class="imagen-circular">
+
+        <h2>Motionless in white</h2>
+        <p>
+          Grupo de metalcore gótico e industrial de EE. UU. con una imagen teatral y letras oscuras. Mezclan sonidos pesados con sintetizadores y temas sobrenaturales. Conocidos por su estilo visual y potente directo.
+        </p>
+        <p><a class="btn btn-secondary" href="https://www.youtube.com/channel/UC5MWh1k90KULpPOeXAzoIZA" target="_blank">Musica &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+
 </main>
 
 <footer class="container py-5">
